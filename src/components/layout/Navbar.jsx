@@ -5,9 +5,9 @@ import { PERSONAL_INFO } from '../../data/portfolioData';
 
 const NAV_ITEMS = [
   { id: 'home', label: 'Home', href: '#hero', implemented: true },
-  { id: 'about', label: 'About', href: '#about', implemented: false, stage: 'Stage 4' },
-  { id: 'education', label: 'Education', href: '#education', implemented: false, stage: 'Stage 5' },
-  { id: 'skills', label: 'Skills', href: '#skills', implemented: false, stage: 'Stage 6' },
+  { id: 'about', label: 'About', href: '#about', implemented: true },
+  { id: 'education', label: 'Education', href: '#education', implemented: true },
+  { id: 'skills', label: 'Skills', href: '#skills', implemented: true },
   { id: 'projects', label: 'Projects', href: '#projects', implemented: false, stage: 'Stage 7' },
   { id: 'achievements', label: 'Achievements', href: '#achievements', implemented: false, stage: 'Stage 8' },
   { id: 'contact', label: 'Contact', href: '#contact', implemented: false, stage: 'Stage 9' },

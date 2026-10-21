@@ -3,6 +3,93 @@
  * All profile data, social links, education details, and achievements are centralized here.
  */
 
+export const ABOUT_DATA = {
+  biography: [
+    "I'm a Computer Engineering student at VJTI Mumbai who enjoys building practical software at the intersection of full-stack development, AI, and data-driven problem solving.",
+    "Through projects like MedBlocks, VidNotes AI, and FinAI-ASSET, I've explored healthcare technology, retrieval-augmented generation, and financial decision support. I enjoy solving algorithmic problems, learning new technologies, and collaborating with teams to turn ideas into useful applications.",
+  ],
+  terminalStatus: "STATUS: LEARNING // BUILDING // IMPROVING",
+  cards: [
+    {
+      id: "card-academic",
+      label: "ACADEMIC STATUS",
+      items: [
+        "B.Tech Computer Engineering",
+        "Veermata Jijabai Technological Institute, Mumbai",
+        "2024–2028",
+      ],
+    },
+    {
+      id: "card-interests",
+      label: "TECHNICAL INTERESTS",
+      items: [
+        "Full-Stack Development",
+        "Artificial Intelligence & Machine Learning",
+        "Software Engineering",
+        "FinTech and Data-Driven Applications",
+      ],
+    },
+    {
+      id: "card-status",
+      label: "PROFILE STATUS",
+      items: [
+        "Computer Engineering Student",
+        "Focused on building practical software and learning modern technologies",
+        "Interested in collaborative engineering opportunities",
+      ],
+    },
+  ],
+};
+
+export const SKILLS_DATA = [
+  {
+    id: "sk-01",
+    index: "01",
+    category: "PROGRAMMING LANGUAGES",
+    icon: "code",
+    color: "#00e5ff",
+    items: ["C++", "Python", "SQL", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: "sk-02",
+    index: "02",
+    category: "FRAMEWORKS & LIBRARIES",
+    icon: "layers",
+    color: "#149cea",
+    items: ["React", "FastAPI", "PyTorch", "NumPy", "Pandas"],
+  },
+  {
+    id: "sk-03",
+    index: "03",
+    category: "TOOLS & DATABASES",
+    icon: "wrench",
+    color: "#00e5ff",
+    items: ["Git", "GitHub", "VS Code", "Linux", "ChromaDB", "SQLite"],
+  },
+  {
+    id: "sk-04",
+    index: "04",
+    category: "AI & INTELLIGENT SYSTEMS",
+    icon: "brain",
+    color: "#149cea",
+    items: [
+      "Machine Learning",
+      "Natural Language Processing (NLP)",
+      "Retrieval-Augmented Generation (RAG)",
+      "LLM Integration",
+      "Predictive Modeling",
+    ],
+  },
+  {
+    id: "sk-05",
+    index: "05",
+    category: "BLOCKCHAIN",
+    icon: "link",
+    color: "#00e5ff",
+    items: ["Solidity", "Web3.py", "Blockchain Development"],
+  },
+];
+
 export const PERSONAL_INFO = {
   name: "Pratik Shewale",
   title: "Software Engineer & AI/ML Developer",
@@ -62,29 +149,27 @@ export const EDUCATION_DATA = [
   {
     id: "edu-01",
     index: "01",
-    level: "Schooling (Class X ICSE)",
-    institution: "VPMS Orion ICSE School, Mumbai",
-    period: "2012–2022",
-    score: "Class X ICSE",
-    coursework: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
+    level: "Higher Secondary Certificate (HSC)",
+    qualification: "Higher Secondary Certificate (HSC)",
+    institution: "Ramraj Global Junior College",
+    period: "2022–2024",
+    score: "91.00%",
+    scoreLabel: "91.00% HSC",
+    status: "completed",
+    badge: null,
+    coursework: ["Physics", "Chemistry", "Mathematics", "Computer Science"],
   },
   {
     id: "edu-02",
     index: "02",
-    level: "Higher Secondary Education (Class XII HSC)",
-    institution: "Alpha Jr. College of Science and Commerce, Mumbai",
-    period: "2022–2024",
-    score: "Class XII HSC | MHT-CET 99.90%ile (Rank 247)",
-    coursework: ["Physics", "Chemistry", "Mathematics", "Computer Science"],
-  },
-  {
-    id: "edu-03",
-    index: "03",
-    level: "Undergraduate B.Tech",
+    level: "B.Tech in Computer Engineering",
+    qualification: "Bachelor of Technology — Computer Engineering",
     institution: "Veermata Jijabai Technological Institute (VJTI), Mumbai",
-    degree: "B.Tech in Computer Engineering",
     period: "2024–2028",
-    score: "7.78 CGPA",
+    score: "7.83/10 CGPA",
+    scoreLabel: "7.83/10 CGPA",
+    status: "current",
+    badge: "CURRENTLY PURSUING",
     coursework: [
       "Data Structures & Algorithms",
       "Object-Oriented Programming",
